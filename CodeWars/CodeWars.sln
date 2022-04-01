@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MorseCode-1", "..\MorseCode
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoToOne", "..\TwoToOne\TwoToOne.csproj", "{2CF70349-E33B-4707-B86D-F16F8B65EE63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training on Maximum subarray sum", "..\Training on Maximum subarray sum\Training on Maximum subarray sum.csproj", "{5108F6BE-7CB7-49D9-8221-309620CC351D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Training on Maximum subarray sum", "..\Training on Maximum subarray sum\Training on Maximum subarray sum.csproj", "{5108F6BE-7CB7-49D9-8221-309620CC351D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Are they the same", "..\Are they the same\Are they the same.csproj", "{7FA1BF57-91D8-44A7-9118-CD60BBDE575E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Are they the same", "..\Are they the same\Are they the same.csproj", "{7FA1BF57-91D8-44A7-9118-CD60BBDE575E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistent Bugger", "..\Persistent Bugger\Persistent Bugger.csproj", "{A07C952C-A1CA-4B5D-BBA8-B831EF5FF8DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7FA1BF57-91D8-44A7-9118-CD60BBDE575E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FA1BF57-91D8-44A7-9118-CD60BBDE575E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FA1BF57-91D8-44A7-9118-CD60BBDE575E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07C952C-A1CA-4B5D-BBA8-B831EF5FF8DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07C952C-A1CA-4B5D-BBA8-B831EF5FF8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07C952C-A1CA-4B5D-BBA8-B831EF5FF8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07C952C-A1CA-4B5D-BBA8-B831EF5FF8DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
