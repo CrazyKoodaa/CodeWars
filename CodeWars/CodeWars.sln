@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Training on Maximum subarra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Are they the same", "..\Are they the same\Are they the same.csproj", "{7FA1BF57-91D8-44A7-9118-CD60BBDE575E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistent Bugger", "..\Persistent Bugger\Persistent Bugger.csproj", "{A07C952C-A1CA-4B5D-BBA8-B831EF5FF8DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistent Bugger", "..\Persistent Bugger\Persistent Bugger.csproj", "{A07C952C-A1CA-4B5D-BBA8-B831EF5FF8DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple Pig Latin", "..\Simple Pig Latin\Simple Pig Latin.csproj", "{7D1F804F-E25F-4B31-AF27-4A5071222C2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{A07C952C-A1CA-4B5D-BBA8-B831EF5FF8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A07C952C-A1CA-4B5D-BBA8-B831EF5FF8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A07C952C-A1CA-4B5D-BBA8-B831EF5FF8DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D1F804F-E25F-4B31-AF27-4A5071222C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D1F804F-E25F-4B31-AF27-4A5071222C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D1F804F-E25F-4B31-AF27-4A5071222C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D1F804F-E25F-4B31-AF27-4A5071222C2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
