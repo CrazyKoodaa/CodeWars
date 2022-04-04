@@ -9,8 +9,76 @@ namespace Weight_for_weight
 
         public static string orderWeight(string strng)
         {
+            // other solution
+            return string.Join(" ", strng.Split(' ')
+                .OrderBy(n => n.ToCharArray()
+                .Select(c => (int)char.GetNumericValue(c)).Sum())
+                .ThenBy(n => n));
+
             // your code
             string result = "";
+            List<pairs> pairs = new List<pairs>();
+
+            var strngSplitted = strng.Split(' ');
+            foreach (var word in strngSplitted)
+            {
+                
+                int sum = (from zif in word select int.Parse(zif.ToString())).Sum();
+                pairs.Add(new pairs(word, sum));
+
+            };
+
+            var sortedPairs = 
+                from pair in pairs
+                orderby pair.originalString
+                orderby pair.numberSum
+                select pair;
+
+
+            foreach (var pair in sortedPairs)
+                result += pair.ToString() + " ";
+            result = result.TrimEnd();
+
+            Console.WriteLine(result);
+            return result;
+        }
+    }
+
+    public class pairs
+    {
+        public string originalString { get; set; }
+        public int number { get; set; }
+        public Int64 numberSum { get; set; }
+        public pairs( string stringOriginal, int numberSumOriginal)
+        {
+            this.originalString = stringOriginal;
+            //this.number = numberOriginal;
+            this.numberSum = numberSumOriginal;
+        }
+
+        public override string ToString()
+        {
+            return $"{originalString}";
+        }
+
+
+    }
+
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+            //var order = WeightSort.orderWeight("103 123 4444 99 2000");
+            var order = WeightSort.orderWeight("2000 10003 1234000 44444444 9999 11 11 22 123");
+            Console.WriteLine("11 11 2000 10003 22 123 1234000 44444444 9999");
+        }
+    }
+};
+
+/*
+ * 
+ * string result = "";
             Console.WriteLine(strng);
             int counting = 0;
             var inputs = strng.TrimEnd().TrimStart().Split(' ');
@@ -75,17 +143,4 @@ namespace Weight_for_weight
 
             return result.TrimEnd();
 
-        }
-    }
-
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-            //var order = WeightSort.orderWeight("103 123 4444 99 2000");
-            var order = WeightSort.orderWeight("2000 10003 1234000 44444444 9999 11 11 22 123");
-            Console.WriteLine(order);
-        }
-    }
-}
+*/
