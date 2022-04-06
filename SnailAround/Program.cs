@@ -9,6 +9,7 @@ namespace SnailSolution
     {
         public class SnailSolution
         {
+            #region MyLongSolution
             /*
             public enum direction
             {
@@ -84,6 +85,7 @@ namespace SnailSolution
                 }
             
             }*/
+            #endregion
 
             public static int[] Snail(int[][] array)
             {
