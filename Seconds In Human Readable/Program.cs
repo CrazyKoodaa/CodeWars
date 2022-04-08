@@ -1,9 +1,9 @@
 ﻿using System;
 
 namespace Seconds_In_Human_Readable
-{
+{  
     internal class Program
-    {
+    { 
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
