@@ -27,11 +27,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnailAround", "..\SnailArou
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catching Car Mileage Numbers", "..\Catching Car Mileage Numbers\Catching Car Mileage Numbers.csproj", "{0102B230-44F8-4DB3-B5C4-4BB6D0C3FB18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adding Big Numbers", "..\Adding Big Numbers\Adding Big Numbers.csproj", "{8BFEAEF1-6BD0-429D-96D2-DB1A24C85364}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adding Big Numbers", "..\Adding Big Numbers\Adding Big Numbers.csproj", "{8BFEAEF1-6BD0-429D-96D2-DB1A24C85364}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seconds In Human Readable", "..\Seconds In Human Readable\Seconds In Human Readable.csproj", "{12CFA86F-769F-468F-96B8-0D4070AC8F08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seconds In Human Readable", "..\Seconds In Human Readable\Seconds In Human Readable.csproj", "{12CFA86F-769F-468F-96B8-0D4070AC8F08}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C Code Quiz 2022-04-08", "..\C Code Quiz 2022-04-08\C Code Quiz 2022-04-08.vcxproj", "{4B756AC2-1296-44D7-B4F5-264C6A798027}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count IP Addresses", "..\Count IP Addresses\Count IP Addresses.csproj", "{9E0B424E-2305-4B68-9B95-FABA75E003C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -223,6 +225,18 @@ Global
 		{4B756AC2-1296-44D7-B4F5-264C6A798027}.Release|x64.Build.0 = Release|x64
 		{4B756AC2-1296-44D7-B4F5-264C6A798027}.Release|x86.ActiveCfg = Release|Win32
 		{4B756AC2-1296-44D7-B4F5-264C6A798027}.Release|x86.Build.0 = Release|Win32
+		{9E0B424E-2305-4B68-9B95-FABA75E003C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0B424E-2305-4B68-9B95-FABA75E003C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0B424E-2305-4B68-9B95-FABA75E003C4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9E0B424E-2305-4B68-9B95-FABA75E003C4}.Debug|x64.Build.0 = Debug|Any CPU
+		{9E0B424E-2305-4B68-9B95-FABA75E003C4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9E0B424E-2305-4B68-9B95-FABA75E003C4}.Debug|x86.Build.0 = Debug|Any CPU
+		{9E0B424E-2305-4B68-9B95-FABA75E003C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0B424E-2305-4B68-9B95-FABA75E003C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0B424E-2305-4B68-9B95-FABA75E003C4}.Release|x64.ActiveCfg = Release|Any CPU
+		{9E0B424E-2305-4B68-9B95-FABA75E003C4}.Release|x64.Build.0 = Release|Any CPU
+		{9E0B424E-2305-4B68-9B95-FABA75E003C4}.Release|x86.ActiveCfg = Release|Any CPU
+		{9E0B424E-2305-4B68-9B95-FABA75E003C4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
